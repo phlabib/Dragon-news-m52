@@ -2,11 +2,13 @@ import Header from "../sheard/Header/Header";
 import LeftSideNav from "../sheard/LeftSideNav/LeftSideNav";
 import Navbar from "../sheard/Navbar";
 import RightSideNav from "../sheard/RightSideNav/RightSideNav";
+import BreakingNews from "./BreakingNews";
 
 const Home = () => {
   return (
     <div>
       <Header> </Header>
+      <BreakingNews></BreakingNews>
       <Navbar></Navbar>
 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
